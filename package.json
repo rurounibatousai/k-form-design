@@ -1,19 +1,10 @@
 {
-  "name": "k-form-design",
-  "version": "3.6.1",
+  "name": "k-form-design-zzh",
+  "version": "0.0.1",
   "private": false,
   "description": "基于vue、ant-design-vue的表单设计器,可视化开发表单",
   "license": "MIT",
   "author": "kchengz",
-  "keywords": [
-    "ant-design",
-    "form",
-    "k-form-design",
-    "表单设计器",
-    "表单设计",
-    "可视化",
-    "工作流"
-  ],
   "bugs": {
     "url": "https://github.com/Kchengz/k-form-design/issues"
   },
@@ -21,11 +12,11 @@
     "type": "git",
     "url": "https://github.com/Kchengz/k-form-design"
   },
-  "main": "lib/k-form-design.umd.min.js",
+  "main": "lib/k-form-design-zzh.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name k-form-design --dest lib packages/index.js && npm run mini",
+    "lib": "vue-cli-service build --target lib --name k-form-design-zzh --dest lib packages/index.js && npm run mini",
     "mini": "vue-cli-service build --target lib --name k-form-design-mini --dest lib packages/mini.js --no-clean",
     "lint": "vue-cli-service lint"
   },
